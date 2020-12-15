@@ -24,7 +24,7 @@ Need better ways to handle shadows, lane paintings, etc.
 import cv2
 import numpy as np
 
-input_img_str = "071.jpg"
+input_img_str = "sample_images/071.jpg"
 img_input = cv2.imread(input_img_str)
 
 # grayscale
