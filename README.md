@@ -13,3 +13,6 @@ Notes:
 Biggest hurdle is finding a way to ignore all the background noise that is present in the
 asphalt or cement. Could probably fine-tune the filter params to achieve better results.
 Need better ways to handle shadows, lane paintings, etc.
+
+Requirements:
+OpenCV
