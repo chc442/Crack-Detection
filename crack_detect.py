@@ -9,7 +9,8 @@ Non data based method. Uses traditional CV.
 
 Method:
 1. grayscale
-2. bilateral, median, and gaussian filtering
+2. bilateral and gaussian filtering to denoise. median filtering to get rid of "salt-and-pepper"
+    in the asphalt
 3. image log (+normalize) to emphasize dark cracks 
 4. canny edge detection
 5. close filter to connect blobs
